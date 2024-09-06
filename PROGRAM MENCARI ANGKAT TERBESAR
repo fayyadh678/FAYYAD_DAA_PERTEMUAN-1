@@ -1,0 +1,13 @@
+# Program untuk mencari angka terbesar dari dua angka yang dimasukkan pengguna
+
+# Memasukkan angka pertama dan angka kedua
+angka_pertama = int(input("Masukkan angka pertama: "))
+angka_kedua = int(input("Masukkan angka kedua: "))
+
+# Mengecek kondisi dan menampilkan angka terbesar
+if angka_pertama > angka_kedua:
+    print(f"Angka terbesar adalah {angka_pertama}")
+elif angka_kedua > angka_pertama:
+    print(f"Angka terbesar adalah {angka_kedua}")
+else:
+    print("Kedua angka sama besar.")
