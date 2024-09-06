@@ -1,0 +1,81 @@
+1. Mencari KPK dari 3 dan 4
+•	Algoritma:
+1.	Tentukan dua angka, misalnya a = 3 dan b = 4.
+2.	Hitung KPK dengan rumus: KPK(a,b)=a×bFPB(a,b)KPK(a,b)=FPB(a,b)a×b.
+3.	FPB (Faktor Persekutuan Terbesar) dapat dihitung menggunakan algoritma Euclidean.
+pseucode
+fungsi FPB(a, b):
+    selama b tidak sama dengan 0 lakukan:
+        temp = a mod b
+        a = b
+        b = temp
+    kembalikan a
+fungsi KPK(a, b):
+    kembalikan (a * b) / FPB(a, b)
+cetak KPK(3, 4)  # Output KPK dari 3 dan 4
+
+
+2. Menukar Posisi Dua Variabel (Kasus Manggis dan Pisang)
+•	Algoritma:
+1.	Ambil piring ketiga yang kosong.
+2.	Pindahkan manggis dari piring 1 ke piring 3.
+3.	Pindahkan pisang dari piring 2 ke piring 1.
+4.	Pindahkan manggis dari piring 3 ke piring 2.
+•	Pseudocode:
+fungsi tukar_posisi():
+    piring_1 = "Manggis"
+    piring_2 = "Pisang"
+    piring_3 = kosong
+    # Langkah 1: Pindahkan Manggis ke piring 3
+    piring_3 = piring_1
+    piring_1 = kosong
+    # Langkah 2: Pindahkan Pisang ke piring 1
+    piring_1 = piring_2
+    piring_2 = kosong
+    # Langkah 3: Pindahkan Manggis ke piring 2
+    piring_2 = piring_3
+    piring_3 = kosong
+    kembalikan piring_1, piring_2
+cetak tukar_posisi()  # Output: ('Pisang', 'Manggis')
+
+3. Menghitung Luas Segitiga
+•	Algoritma:
+1.	Diketahui alas = 25, tinggi = 30.
+2.	Gunakan rumus: Luas=12×alas×tinggiLuas=21×alas×tinggi.
+•	Pseudocode:
+fungsi luas_segitiga(alas, tinggi):
+    kembalikan 0.5 * alas * tinggi
+cetak luas_segitiga(25, 30)  # Output: 375
+
+4. Luas Jajar Genjang (Panjang = 5, Tinggi = 3)
+•	Algoritma:
+1.	Diketahui panjang = 5, tinggi = 3.
+2.	Gunakan rumus: Luas=panjang×tinggiLuas=panjang×tinggi.
+•	Pseudocode:
+fungsi luas_jajar_genjang(panjang, tinggi):
+    kembalikan panjang * tinggi
+cetak luas_jajar_genjang(5, 3)  # Output: 15
+
+5. Volume Tabung (Jari-jari = 3, Tinggi = 5)
+o	Algoritma:
+1.	Diketahui jari-jari = 3, tinggi = 5.
+2.	Gunakan rumus: Volume=π×jari-jari2×tinggiVolume=π×jari-jari2×tinggi.
+o	Pseudocode:
+•	fungsi volume_tabung(jari_jari, tinggi):
+kembalikan 3.14159 * (jari_jari^2) * tinggi
+•	cetak volume_tabung(3, 5)  # Output: 141.37
+
+
+
+6. Volume Kerucut (Diameter = 5, Tinggi = 4)
+o	Algoritma:
+1.	Diketahui diameter = 5, tinggi = 4. Maka jari-jari r=diameter2=2.5r=2diameter=2.5.
+2.	Gunakan rumus: Volume=13×π×jari-jari2×tinggiVolume=31×π×jari-jari2×tinggi.
+o	Pseudocode:
+fungsi volume_kerucut(diameter, tinggi):
+    jari_jari = diameter / 2
+    kembalikan (1/3) * 3.14159 * (jari_jari^2) * tinggi
+cetak volume_kerucut(5, 4)  # Output: 26.18
+o	
+
+
