@@ -11,3 +11,21 @@ elif angka_kedua > angka_pertama:
     print(f"Angka terbesar adalah {angka_kedua}")
 else:
     print("Kedua angka sama besar.")
+
+
+
+Pseudocode
+Mulai
+   Tampilkan "Masukkan angka pertama: "
+   Input angka_pertama
+   Tampilkan "Masukkan angka kedua: "
+   Input angka_kedua
+
+   Jika angka_pertama > angka_kedua
+      Tampilkan "Angka terbesar adalah angka_pertama"
+   Jika tidak, jika angka_kedua > angka_pertama
+      Tampilkan "Angka terbesar adalah angka_kedua"
+   Jika tidak
+      Tampilkan "Kedua angka sama besar"
+
+Selesai
