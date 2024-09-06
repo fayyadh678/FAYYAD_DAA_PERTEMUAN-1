@@ -12,7 +12,7 @@ elif angka_kedua > angka_pertama:
 else:
     print("Kedua angka sama besar.")
 
-Program Di Google Colabs : https://colab.research.google.com/notebooks/intro.ipynb
+Program Di Google Colabs : https://colab.research.google.com/drive/1Ea_KroUgYmQgBl31la6JGHCRTO3mx8-V#scrollTo=zwFnJsE6vjf8&line=6&uniqifier=1
 
 
 Pseudocode
